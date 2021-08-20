@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*header and nav style start*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,6 +41,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/*header and nav style end*/
 
 a {
     color: #ffffff;
@@ -50,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/*hero style start*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +61,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+/*hero style end*/
 
 .float-left {
     float: left;
@@ -69,12 +73,33 @@ p {
     margin-left: 25px;
 }
 
+/*section style start*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*section style end*/
+
+/*aside style section start*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,24 +127,7 @@ p {
     max-width: 150px;
     max-height: 142px;
 }
-
-.content div {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/*aside style section end*/
 
 /*footer style start*/
 .footer {
